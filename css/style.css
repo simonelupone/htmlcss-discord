@@ -22,6 +22,10 @@ body {
     text-align: right;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 /* Utility */
 .container {
     width: 100%;
@@ -131,6 +135,11 @@ body {
 
 ul li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Flex Utilities */
@@ -243,13 +252,17 @@ header {
 .hero {
     width: 100%;
     min-height: 500px;
-    background: #00018b;
+    background: url('../img/jumbo.png') no-repeat;
+    background-size: cover;
+    min-height: 550px;
 }
 
 .inside-square {
     height: 400px;
-    width: 1000px;
-    background: #ef82ed;
+    width: 700px;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
 }
 
 .section {
@@ -290,6 +303,11 @@ header {
 .white {
     background: #fff;
     color: #000;
+}
+
+.black {
+    background: #23272a;
+    color: #fff;
 }
 
 footer {
