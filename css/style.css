@@ -6,6 +6,10 @@
 }
 
 /* Typography */
+body {
+    font-family: "Roboto", serif;
+}
+
 .text-center {
     text-align: center;
 }
@@ -232,7 +236,8 @@ ul li {
 
 header {
     height: 100px;
-    background-color: #add8e7;
+    background-color: #255ee9;
+    color: #fff;
 }
 
 .hero {
@@ -268,7 +273,6 @@ header {
 
 .blue {
     background: #1e90ff;
-
 }
 
 .pink {
@@ -281,6 +285,11 @@ header {
 
 .mint {
     background: #20b3aa;
+}
+
+.white {
+    background: #fff;
+    color: #000;
 }
 
 footer {
@@ -307,9 +316,9 @@ footer {
 /* Buttons */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     cursor: pointer;
     transition: background 0.3s;
