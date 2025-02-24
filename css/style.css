@@ -329,6 +329,10 @@ header {
     height: 900px;
 }
 
+.big-box>p {
+    line-height: 1.5;
+}
+
 .blue {
     background: #1e90ff;
 }
@@ -355,6 +359,14 @@ header {
     color: #fff;
 }
 
+.text-white {
+    color: white;
+}
+
+.text-purple {
+    color: #7289da;
+}
+
 .purple {
     background: #7289da;
 }
@@ -365,19 +377,35 @@ footer {
 
 .footer-box {
     height: 575px;
+    padding: 50px 0;
 }
 
-.footer-nav {
-    background: #7fffd4;
-}
+.footer-nav {}
 
 .upper-section {
     min-height: 600px;
 }
 
+.upper-section .row {
+    border-bottom: 1px solid gray;
+}
+
 .lower-section {
-    min-height: 100px;
+    min-height: 80px;
+    margin-top: -20px;
+}
+
+.footer-title {
+    color: #7289da
+}
+
+.flag {
+    width: 25px;
+}
+
+.footer-box>ul li {
     margin-block: 10px;
+    color: white;
 }
 
 /* Buttons */
