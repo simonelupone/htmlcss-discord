@@ -37,3 +37,7 @@ Riproduciamo il layout come da **screenshot**, cercando di essere il più fedeli
 ## 🔄 Requisiti GitHub  
 
 📌 **Numero minimo di push richiesti:** **10**  
+
+## Anteprima
+
+[-> PREVIEW <-](https://simonelupone.github.io/htmlcss-discord/)
